@@ -90,7 +90,7 @@ input[type=text] {
     width: 20%;
     margin-bottom: 30px;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: 1px solid transparent;
     border-radius: 4px;
     font-size: 16px;
     background-color: white;
@@ -115,8 +115,6 @@ h3 {
     position: relative;
     margin-left: 48%;
     margin-bottom: 10px;
-    /*right: 48.5%;
-    top: 70.4%; */
 }
 
 .selectdiv {
@@ -173,4 +171,79 @@ select::-ms-expand {
     word-break: normal;
 }
 
+.autocomplete {
+    position: relative;
+    display: inline-block;
+  }
+
+input {
+    border: 1px solid transparent;
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 16px;
+}
+  
+input[type=text] {
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 10px 12px;
+    font-family:  'Century Gothic', sans-serif;
+    width: 100%;
+    position: relative;
+    margin-left: 150%;
+}
+  
+input[type=submit] {
+    background-color: #05094b;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 12px 10px 12px;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    font-family:  'Century Gothic', sans-serif;
+    position: relative;
+    margin-left: 37%;
+    margin-top: 5%;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+  
+.autocomplete-items div {
+    cursor: pointer;
+    background-color: #fff; 
+    border-bottom: 1px solid #d4d4d4;
+    color: #6a8496;
+    border: none;
+    padding: 12px 10px 12px;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    font-family:  'Century Gothic', sans-serif;
+    position: absolute;
+    width: 100%;
+    margin-left: 150%;
+}
+  
+.autocomplete-items div:hover {
+    background-color: #e9e9e9; 
+    position: relative;
+    margin-left: 150%;
+}
 
