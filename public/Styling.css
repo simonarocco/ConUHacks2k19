@@ -2,7 +2,6 @@ h1 {
     font-family:  'Century Gothic', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-align: center;
 }
 
 .title {
@@ -10,6 +9,7 @@ h1 {
     margin-top: 40px;
     font-size: 50px;
     font-weight: 400;
+    text-align: center;
 }
 
 .subtitle {
@@ -17,13 +17,32 @@ h1 {
     margin-top: 40px;
     font-size: 40px;
     font-weight: 200;
+    text-align: center;
 }
 
-.description {
+.footer {
     color: #f8fbff;
     margin-top: 60px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 100;
+    text-align: center;
+}
+
+.normal {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 80;
+    left: 33%;
+    position: relative;
+    margin-top: 40px;
+}
+
+.profileDescription {
+    color: #6a8496;
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
 }
 
 .button {
