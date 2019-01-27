@@ -195,43 +195,6 @@ select::-ms-expand {
     display: inline-block;
   }
 
-input {
-    border: 1px solid transparent;
-    background-color: #ffffff;
-    padding: 10px;
-    font-size: 16px;
-}
-  
-input[type=text] {
-    box-sizing: border-box;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 12px 10px 12px;
-    font-family:  'Century Gothic', sans-serif;
-    width: 100%;
-    position: relative;
-    margin-left: 150%;
-}
-  
-input[type=submit] {
-    background-color: #05094b;
-    color: #fff;
-    cursor: pointer;
-    border: none;
-    padding: 12px 10px 12px;
-    font-size: 16px;
-    -webkit-transition-duration: 0.4s; 
-    transition-duration: 0.4s;
-    border-radius: 8px;
-    font-family:  'Century Gothic', sans-serif;
-    position: relative;
-    margin-left: 37%;
-    margin-top: 5%;
-}
-
 .autocomplete-items {
     position: absolute;
     border: 1px solid #d4d4d4;
