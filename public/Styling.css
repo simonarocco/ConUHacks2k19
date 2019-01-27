@@ -77,6 +77,11 @@ h1 {
     margin-top: 6%;
 }
 
+.saveButton {
+    margin-left: 70%;
+    margin-bottom: 1%;
+}
+
 body {
     background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
@@ -94,7 +99,7 @@ input[type=text] {
     padding: 12px 10px 12px;
     font-family:  'Century Gothic', sans-serif;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 h3 {
@@ -107,9 +112,11 @@ h3 {
     color: #000000;
     font-size: 20px;
     font-weight: 80;
-    position: fixed;
-    right: 48.5%;
-    top: 70.4%;
+    position: relative;
+    margin-left: 48%;
+    margin-bottom: 10px;
+    /*right: 48.5%;
+    top: 70.4%; */
 }
 
 .selectdiv {
