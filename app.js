@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(app.router);
 app.locals.pretty = true;
 app.get("/", (req, res) => {
-    res.redirect("/BuildProfile3.html");
+    res.redirect("/HomeScreen.html");
 });
 
 http.createServer(app).listen(app.get('port'), function() {
